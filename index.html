@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS - услуги и сервис</title>
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/html.css"> 
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/btn.css">
+    <link rel="stylesheet" href="styles/main-nav.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/services-menu.css"> 
+    <link rel="stylesheet" href="styles/page-content.css"> 
+    <link rel="stylesheet" href="styles/page-nav.css"> 
+    <link rel="stylesheet" href="styles/link.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/expander.css">
+    <link rel="stylesheet" href="styles/user-menu.css">
+</head>
+
+<body class="style">
+ <div class="layout">
+<header class="header layout__header">
+ <div class="header__inner">
+  <button class="btn btn--circle header__toggle-btn" type="button">
+   <img class="btn__icon header__toggle-btn-icon" src="pics/icon.svg" width="40" height="40">        
+   </button>
+   <nav class="main-nav header__main-nav" id="main-nav">
+        <a class="logo main-nav__logo" href="index.html" aria-label="Переход на главную">
+              <img class="logo__img" src="pics/logo.svg" width="97" height="51" alt="Логотип CPS">
+        </a>
+    <ul class="user-menu main-nav__user-menu">
+      <li class="user-menu__item">
+        <a class="btn btn--circle btn__user-menu"> <img src="pics/call.svg" width="40" height="40"> </a>
+      </li>
+      <li class="user-menu__item">
+        <a class="btn btn--circle btn__user-menu"><img src="pics/chat.svg" width="40" height="40"> </a> 
+      </li>
+      <li class="user-menu__item">
+        <a class="btn btn--circle btn__user-menu"><img src="pics/profile.svg" width="40" height="40"> </a> 
+      </li>
+    </ul>
+    </nav>  
+ </div>   
+</header>
+<aside class="services layout__services">
+ <ul class="services-menu services__services-menu">
+ <li class="services-menu__item">
+            <button class="services-menu__btn btn btn--rounded" type="button" aria-label="Оставить заявку">
+              <span class="services-menu__btn-text btn__text">Оставить заявку</span>
+              <img src="pics/repair.svg" alt="repair" width="40" height="40">
+            </button>
+ </li>
+ <li class="services-menu__item">
+        <button class="services-menu__btn btn btn--rounded" type="button" aria-label="Оставить заявку">
+          <span class="services-menu__btn-text btn__text">Статус ремонта</span>    
+          <img src="pics/checkstatus.svg" alt="checkstatus" width="40" height="40">
+        </button>
+ </li>
+ </ul>   
+</aside>                
+<main class="page-content layout__page-content">
+<h1 class="page-content__title">
+Услуги и сервисы    
+</h1>
+<div class="page-nav page-content__page-nav">
+<ul class="page-nav__list">
+<li class="page-nav__item"><a class="page-nav__link link link--bordered link--bordered--active">Ремонтируемые бренды</a></li>
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Ремонтируемые устройства</a></li>
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Дополнительные услуги</a></li>
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Цены на услуги</a></li>
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Специальные цены</a></li>    
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Адреса сервисных центров</a></li> 
+<li class="page-nav__item"><a class="page-nav__link link link--bordered">Отзывы</a></li>    
+  
+</ul>    
+</div>
+<article class="about page-content__about">
+ <div class="expander about__wrapper">
+ <div class="expander__wrapper">
+  <div class="expander__content about__text">
+   <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p> 
+   <p class="expander__hidden"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким. </p>
+  </div>
+ </div>
+ <button class="expander__btn btn btn--expand">
+    <img class="btn__icon" src="pics/expander.svg" alt="Кнопка пролистать вниз">
+    <span class="btn__text">Читать далее</span>
+ </button>
+ </div> 
+ <picture>
+  <img class="about__img" src="pics/cps-page.jpg" alt="Логотип CPS с графиком работы">  
+ </picture>   
+</article>    
+</main>
+
+ </div>   
+</body>
